@@ -1,0 +1,15 @@
+[project]
+name = "jp-cleanroom"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "pytest>=9.1.1",
+    "scikit-learn>=1.9.1",
+    "tzdata>=2026.5",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

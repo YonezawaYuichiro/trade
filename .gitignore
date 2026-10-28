@@ -1,0 +1,17 @@
+# APIキーと秘密
+.env
+*.key
+secrets/
+
+# 取得した実データ（ハッシュは ledger.csv と DATA.md に残す）
+data/
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Mac から持ち込んだ残骸
+.Spotlight-V100/
+.fseventsd/
+._*
